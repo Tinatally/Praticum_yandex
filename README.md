@@ -1,47 +1,5 @@
 # Praticum_yandex
 Projects completed during Data Science course
-
-**Sprint #14 - Machine Learning for Texts**
-
-The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. You'll be using a dataset of IMBD movie reviews with polarity labelling to build a model for classifying positive and negative reviews. It will need to reach an F1 score of at least 0.85.
-
-**Sprint #13 - Time Series**
-
-Sweet Lift Taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak hours, we need to predict the amount of taxi orders for the next hour. Build a model for such a prediction. The RMSE metric on the test set should not be more than 48.
-
-**Sprint #12 - Numerical Methods**
-
-Rusty Bargain used car sales service is developing an app to attract new customers. In that app, you can quickly find out the market value of your car. You have access to historical data: technical specifications, trim versions, and prices. You need to build the model to determine the value. Rusty Bargain is interested in:
-1. the quality of the prediction
-2. the speed of the prediction
-3. the time required for training
-
-**Sprint #11 - Linear Algebra**
-
-The Sure Tomorrow insurance company wants to protect its clients' data. Your task is to develop a data transforming algorithm that would make it hard to recover personal information from the transformed data. This is called data masking, or data obfuscation. You are also expected to prove that the algorithm works correctly. Additionally, the data should be protected in such a way that the quality of machine learning models doesn't suffer. You don't need to pick the best model. Follow these steps to develop a new algorithm:
-1. construct a theoretical proof using properties of models and the given task;
-2. formulate an algorithm for this proof;
-3. check that the algorithm is working correctly when applied to real data.
-
-**Sprint #10 - Integrated project 2**
-
-Prepare a prototype of a machine learning model for Zyfra. The company develops efficiency solutions for heavy industry. The model should predict the amount of gold recovered from gold ore. You have the data on extraction and purification. The model will help to optimize the production and eliminate unprofitable parameters. You need to:
-1. Prepare the data;
-2. Perform data analysis;
-3. Develop and train a model. To complete the project, you may want to use documentation from pandas, matplotlib, and sklearn. The next lesson is about the ore purification process. You will pick the information that is important for the model development.
-
-**Sprint #9 - Machine Learning for Business**
-
-You work for the OilyGiant mining company. Your task is to find the best place for a new well. Steps to choose the location: Collect the oil well parameters in the selected region: oil quality and volume of reserves; Build a model for predicting the volume of reserves in the new wells; Pick the oil wells with the highest estimated values; Pick the region with the highest total profit for the selected oil wells. You have data on oil samples from three regions. Parameters of each oil well in the region are already known. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique.
-
-**Sprint #8 - Supervised learning**
-
-Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. We need to predict whether a customer will leave the bank soon. You have the data on clients’ past behavior and termination of contracts with the bank. Build a model with the maximum possible F1 score. To pass the project, you need an F1 score of at least 0.59. Check the F1 for the test set. Additionally, measure the AUC-ROC metric and compare it with the F1.
-
-**Sprint #7 - Introduction to machine learning**
-
-Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. You have access to behavior data about subscribers who have already switched to the new plans (from the project for the Statistical Data Analysis course). For this classification task, you need to develop a model that will pick the right plan. Since you’ve already performed the data preprocessing step, you can move straight to creating the model. Develop a model with the highest possible accuracy. In this project, the threshold for accuracy is 0.75. Check the accuracy using the test dataset.
-
 **Sprint #6 - Data Collection and Storage (SQL)**
 
 You're working as an analyst for Zuber, a new ride-sharing company that's launching in Chicago. Your task is to find patterns in the available information. You want to understand passenger preferences and the impact of external factors on rides. You'll study a database, analyze data from competitors, and test a hypothesis about the impact of weather on ride frequency.
